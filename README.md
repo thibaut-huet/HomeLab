@@ -10,6 +10,7 @@ Ordinateur portable HP pavillon 8giga de RAM
 Débian 12 
 
 ## Etape d'évolution: 
-- installation d'un serveur linux (Débian 12) avec Docker et Docker-compose
--
--
+- installation d'un serveur linux (Débian 12) 
+- Installation SSH pour travailler depuis mon ordinateur
+- installation d'un vpn tailscale pour joindre mon serveur depuis l'exterieur.
+-installation Docker et Docker-compose
