@@ -7,7 +7,14 @@ Laboratoire évolutif visant l'utilisation personnel de service mais aussi l'exp
 Ordinateur portable HP pavillon 8giga de RAM 
 
 # software: 
-Débian 12 
+- Débian 12 
+- Docker
+- NAS Filebrowser
+- tailscale
+- wake on lan
+
+
+
 
 ## Etape d'évolution: 
 - installation d'un serveur linux (Débian 12) 
