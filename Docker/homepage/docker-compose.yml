@@ -5,6 +5,7 @@ services:
     environment:
       PUID: <xxxx>
       PGID: <xxxx>
+      HOMEPAGE_ALLOWED_HOSTS: <xxx.xxx.xxx.xxx:xxxx>
     ports:
       - <XXXX:XXXX>
     volumes:
