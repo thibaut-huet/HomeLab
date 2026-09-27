@@ -15,7 +15,7 @@ Ordinateur portable HP pavillon 8giga de RAM
 - wake on lan
 - PhotoPrism
 - Jellyfin 
-
+- homepage 
 
 
 ## Etape d'évolution: 
@@ -26,4 +26,4 @@ Ordinateur portable HP pavillon 8giga de RAM
 - Installation Docker et Docker-compose
 - Installation d'un nas Filebrowser conteneurisé avec volume de stockage (.yml) et accessible depuis le réseau local ou par vpn (tailscale) .
 - Installation de PhotoPrism et Jellyfin en conteneur (.yml) avec lecture seul des dossiers attribué dans le nas. 
-- 
+- Installation conteneurisé d'un dashboard HomePage. 
