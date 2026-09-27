@@ -5,7 +5,7 @@ services:
     image: filebrowser/filebrowser:v2.30.0
     container_name: filebrowser
     ports:
-      - "xxxx:xx"
+      - <"xxxx:xx">
     volumes:
       - /home/thibaut/donnees_nas:/srv
       - ./filebrowser.db:/database/filebrowser.db
