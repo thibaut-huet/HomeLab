@@ -1,1 +1,11 @@
-a
+services:
+  jellyfin:
+    image: jellyfin/jellyfin:latest
+    container_name: jellyfin
+    user: <xxxx:xxxx>
+    network_mode: host
+    volumes:
+      - ./config:/config
+      - ./cache:/cache
+      - /home/thibaut/donnees_nas/films:/media/films
+    restart: unless-stopped
