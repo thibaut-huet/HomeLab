@@ -1,0 +1,15 @@
+services:
+  homepage:
+    image: ghcr.io/gethomepage/homepage:latest
+    container_name: homepage
+    environment:
+      PUID: <xxxx>
+      PGID: <xxxx>
+    ports:
+      - <XXXX:XXXX>
+    volumes:
+      - /home/thibaut/docker/homepage/images:/app/public/images
+      - /home/thibaut/docker/homepage/icons:/app/public/icons
+      - /home/thibaut/docker/homepage/config:/app/config
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+    restart: unless-stopped
