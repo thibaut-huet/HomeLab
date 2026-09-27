@@ -1,1 +1,24 @@
+<<<<<<< HEAD
 a
+=======
+version: '3.5'
+
+services:
+  photoprism:
+    image: photoprism/photoprism:latest
+    container_name: photoprism
+    restart: unless-stopped
+    ports:
+      - <"xxxx:xxxx">
+    environment:
+      PHOTOPRISM_ADMIN_PASSWORD: <"xxxxxxxxxx">
+      PHOTOPRISM_SITE_URL: <"http://192.168.xxx.xxx:xxxx">
+      PHOTOPRISM_ORIGINALS_READONLY: "true"
+      PHOTOPRISM_HTTP_COMPRESSION: "gzip"
+      PHOTOPRISM_DEBUG: "false"
+      PHOTOPRISM_PUBLIC: "false"
+      PHOTOPRISM_DEFAULT_LANGUAGE: "fr"
+    volumes:
+      - /home/thibaut/donnees_nas/Photo:/photoprism/originals:ro
+      - ./storage:/photoprism/storage
+>>>>>>> dc54eea (Update docker-compose.yml)
